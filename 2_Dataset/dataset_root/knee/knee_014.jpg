@@ -1,0 +1,422 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!--<![endif]-->
+
+<head>
+	<!-- Favicon -->
+	<link rel="shortcut icon" type="image/x-icon" sizes="96x96" href="images/favicon.ico" />
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8" />
+	<base href="https://kneecareindia.in/" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title></title>
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="Brite Infomedia" />
+	<meta name="copyright" content="" />
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+	<!-- CSS
+  ================================================== -->
+	<!-- Web Fonts -->
+	<link rel='stylesheet' type='text/css' href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600&amp;subset=cyrillic,latin' />
+
+	<!-- CSS Global Compulsory -->
+	<link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="assets/css/style.css" />
+	<link rel="stylesheet" href="css/styles.css" />
+
+	<!-- CSS Header and Footer -->
+	<link rel="stylesheet" href="assets/css/headers/header-default.css" />
+	<link rel="stylesheet" href="assets/css/footers/footer-v1.css" />
+
+	<!-- CSS Implementing Plugins -->
+	<link rel="stylesheet" href="assets/plugins/animate.css" />
+	<link rel="stylesheet" href="assets/plugins/line-icons/line-icons.css" />
+	<link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="assets/plugins/parallax-slider/css/parallax-slider.css" />
+	<link rel="stylesheet" href="assets/plugins/owl-carousel/owl-carousel/owl.carousel.css" />
+
+	<link rel="stylesheet" href="assets/plugins/sky-forms-pro/skyforms/css/sky-forms.css" />
+	<link rel="stylesheet" href="assets/plugins/sky-forms-pro/skyforms/custom/custom-sky-forms.css" />
+	<!--[if lt IE 9]><link rel="stylesheet" href="assets/plugins/sky-forms-pro/skyforms/css/sky-forms-ie8.css"><![endif]-->
+	<!-- CSS Theme -->
+	<link rel="stylesheet" href="assets/css/theme-colors/default.css" id="style_color" />
+	<link rel="stylesheet" href="assets/css/theme-skins/dark.css" />
+
+	<!-- CSS Customization -->
+	<link rel="stylesheet" href="assets/css/custom.css" />
+	<!--<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>-->
+	<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' />
+	<link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css"
+         rel = "stylesheet" />
+    
+	<!-- JS Global Compulsory -->
+	<script type="text/javascript" src="assets/plugins/jquery/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/plugins/jquery/jquery-migrate.min.js"></script>
+	<script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+	<!-- <script type="text/javascript" src="http://www.google.com/recaptcha/api/js/recaptcha_ajax.js"></script> -->
+	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+	<!-- <script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script> -->
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('#search').on('click',function(){
+			if($('#searchform').find('input').val()!=''){
+				$('#searchform').submit();
+			}else{
+				alert('Please Type something to search!');
+			}
+		});
+	})
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-151313687-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-151313687-1');
+</script>
+
+
+</head>
+<body class="" >
+	<div class="container">
+		<!--=== Header ===-->
+		<div class="row">			
+			<div class="container">
+				<div class="col-md-3 pl-0 pr-0">
+					<a class="logo" href="home">
+						<img src="assets/img/new/logo.png" alt="Logo" />
+					</a>
+					<button type="button" class="navbar-toggle" data-toggle="collapse"
+						data-target=".navbar-responsive-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="fa fa-bars"></span>
+					</button>
+				</div>
+				<div class="col-md-9 pt-4 pb-4 pr-0">
+					<div class="col-md-4 pt-2 pt-md-4">
+						<a class="float-md-right" href="tel:+919626262945"><i class="fas fa-mobile-alt"></i> +91 96262 62945</a>
+					</div>
+					<div class="col-md-4 pt-2 pt-md-4">
+						<a class="float-md-right" href="https://api.whatsapp.com/send?phone=919626262952&text=Hi"><i class="fab fa-whatsapp"></i> +91 96262 62952</a>
+					</div>
+					<div class="col-md-4 pt-2 pt-md-4">
+						<a class="float-md-right" href="mailto:knee.news@gmail.com"><i class="far fa-envelope"></i> knee.news@gmail.com</a>
+					</div>
+				</div>
+			</div>
+			<!--/end container-->
+			<div class="container header">
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse mega-menu navbar-responsive-collapse">					
+					<ul class="nav navbar-nav">
+						<li class=""><a href="home">Home</a></li><li class="dropdown "><a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">about</a><ul class="dropdown-menu"><li><a href="dr-raj-kanna">Dr. Raj Kanna - Best Knee Surgeon India</a><li><a href="our-clinic">Our Clinic</a></li></ul></li><li class="dropdown "><a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">conditions Treated</a><ul class="dropdown-menu"><li><a href="knee-arthritis">Knee Arthritis</a><li><a href="anterior-cruciate-ligament-tear">Anterior Cruciate Ligament Tear</a><li><a href="meniscal-tears">Meniscal Tears</a><li><a href="patella-knee-cap-instability">Patella (Knee Cap) Instability</a><li><a href="dislocation-of-the-knee">Dislocation of the knee</a><li><a href="posterior-cruciate-ligament-tear">Posterior Cruciate Ligament Tear</a><li><a href="medial-collateral-ligament-tear">Medial Collateral Ligament Tear</a><li><a href="lateral-collateral-ligament-tear">Lateral Collateral Ligament Tear</a><li><a href="failed-knee-surgeries">Failed Knee Surgeries</a></li></ul></li><li class="dropdown "><a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">why us?</a><ul class="dropdown-menu"><li><a href="our-mission-and-vision">Our Mission and Vision</a><li><a href="what-makes-us-unique">What Makes us Unique?</a></li></ul></li><li class="dropdown "><a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">services</a><ul class="dropdown-menu"><li><a href="robotic-assisted-knee-replacement">Robotic Assisted Knee Replacement</a><li><a href="computer-assisted-knee-replacement">Computer Assisted Knee Replacement</a><li><a href="arthroscopic-anatomical-acl-reconstruction">Arthroscopic Anatomical ACL Reconstruction</a><li><a href="key-hole-surgery-of-the-knee">Key-Hole Surgery of the Knee</a><li><a href="partial-knee-replacement">Partial Knee Replacement</a><li><a href="revision-knee-replacement">Revision Knee Replacement</a><li><a href="treatment-of-pcl-injury">Treatment of PCL Injury</a><li><a href="medial-patello-femoral-ligament-mpfl-reconstruction">Medial Patello-Femoral Ligament (MPFL) Reconstruction</a><li><a href="stem-cell-therapy">Stem Cell Therapy</a><li><a href="platelet-rich-plasma">Platelet Rich Plasma</a></li></ul></li><li class=""><a href="patient-guide">Patient guide</a></li><li class=""><a href="https://kneeworld.in/blogs/">Blogs</a></li><li class="dropdown "><a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">testimonial</a><ul class="dropdown-menu"><li><a href="written-testimonial">Written Testimonial</a><li class="dropdown-submenu"><a href="javascript:void(0);">Video Testimonial</a>
+								<ul class="dropdown-menu"> <li><a href="knee-replacement-testimonials">Knee Replacement Testimonials</a><a href="key-hole-surgery-testimonials">Key Hole Surgery Testimonials</a></li>
+							</ul></li></ul></li><li class=""><a href="international-patients">International Patients</a></li><li class=""><a href="knee-replacement-in-chennai">Gallery</a></li><li class=""><a href="contact-us">Contact Us</a></li>					</ul>
+					<!--/end container-->
+				</div>
+				<!--/navbar-collapse-->
+			</div>
+		</div>
+		<!--=== End Header ===-->
+	</div>
+
+<div class="errorr-back">
+    <div class="errorr-inner">
+        <div class="row">
+            <div class="col-md-6">
+                <h1>404</h1>
+                <h1>OOPS ! ... PAGE NOT FOUND</h1>
+                <p>THE PAGE YOU ARE LOOKING FOR MIGHT HAVE BEEN REMOVED, HAD ITS NAME CHANGED, OR IS TEMPORARILY UNAVAILABLE.</p>
+                <a href="home" class="btn-u btn-u-lg app-btn"><i class="fas fa-home"></i> TAKE ME HOME</a>
+            </div>
+            <div class="col-md-6"></div>
+            
+        </div>
+    </div>
+</div><div class="clear"></div><!--=== Footer Version 1 ===-->
+		<div class="footer-v1">
+			<div class="footer">
+				<div class="container">
+					<div class="row">
+						<!-- About -->
+						<div class="col-md-3 md-margin-bottom-40">
+							<a href="home">
+								<img id="logo-footer" class="footer-logo" src="assets/img/new/logo.png" alt="logo">
+							</a>							
+							<p>Dr. Raj Kanna is known for making the impossible possible, with respect to knee surgery, using modern technology and is one of the very few eminent surgeons in Asia, who performs knee replacement surgery using computer navigation technology.</p>
+						</div>
+						<!--/col-md-3-->
+						<!-- End About -->
+
+						<!-- Latest -->
+						<div class="col-md-3 md-margin-bottom-40">
+							<div class="posts">
+								<div class="headline">
+									<h2>Latest Posts</h2>
+								</div>
+								<ul class="list-unstyled latest-list">
+									<li>
+										<a href="https://kneeworld.in/blogs/2020/04/10/what-is-the-cost-for-knee-replacement-surgery-in-india/">
+										    What is the Cost for knee Replacement Surgery in India?</a><br>
+										<small>April 10, 2020</small>
+									</li>
+                                  <br>
+									<li>
+										<a href="https://kneecareindia.in/blog/2018/12/20/what-is-computer-assisted-knee-replacement-surgery/">
+										    What is Computer Assisted Knee replacement Surgery?</a><br>
+										<small>December 20, 2018</small>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<!--/col-md-3-->
+						<!-- End Latest -->
+
+						<!-- Link List -->
+						<div class="col-md-3 md-margin-bottom-40">
+							<div class="headline">
+								<h2>Useful Links</h2>
+							</div>
+							<ul class="list-unstyled link-list">
+								<li><a href="our-clinic">Our Clinic</a><i class="fa fa-angle-right"></i></li>
+								<li><a href="our-mission-and-vision">Our Mission and Vision</a><i class="fa fa-angle-right"></i></li>
+								<li><a href="blog" target="blank">Blogs</a><i class="fa fa-angle-right"></i></li>
+                                <li><a href="knee-replacement-in-chennai" target="blank">Gallery</a><i class="fa fa-angle-right"></i></li>
+								<li><a href="knee-replacement-testimonials">Video Testimonial</a><i class="fa fa-angle-right"></i></li>
+								<li><a href="contact-us">Contact us</a><i class="fa fa-angle-right"></i></li>
+							</ul>
+						</div>
+						<!--/col-md-3-->
+						<!-- End Link List -->
+
+						<!-- Address -->
+						<div class="col-md-3 map-img md-margin-bottom-40">
+							<div class="headline">
+								<h2>Contact Us</h2>
+							</div>
+							<address class="md-margin-bottom-40">
+								Dr.Raj Kanna Knee & Ortho Clinic <br />
+								No: 179/1, 4th Avenue, <br />
+								Kurinji Colony, Anna Nagar, <br />
+								(Opp to Natesan Cooperative Management Institute), Chennai-600040.  <br />
+                                Phone : <a href="tel:+919626262945" class="">9626262945</a><br>
+								Email : <a href="mailto:knee.news@gmail.com" class="">knee.news@gmail.com</a><br>
+                                Website : <a href="https://kneeworld.in/" class="">kneeworld.in</a>
+
+							</address>
+						</div>
+						<!--/col-md-3-->
+						<!-- End Address -->
+					</div>
+				</div>
+			</div>
+			<!--/footer-->
+
+			<div class="copyright">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6">
+							
+
+						<div itemtype="https://schema.org/MedicalBusiness" itemscope>
+							<link itemprop="image" href="https://kneecareindia.in/images/favicon.ico">
+							<meta itemprop="name" content="Dr. Raj Kanna Knee Clinic" />
+							 <span itemprop="name">Dr. Raj Kanna Knee Clinic</span>
+							<div itemprop="address" itemtype="http://schema.org/PostalAddress" itemscope>Business Address:
+								<span itemprop="streetAddress">
+								The Miracle, 21B, Sakthi Nagar Main Rd, Sakthi Nagar, Porur
+								</span>,
+								<span itemprop="addressLocality">Chennai</span>,<br />
+								<span itemprop="addressRegion">Tamil Nadu</span>,
+								<span itemprop="postalCode">600116</span>,
+								<span itemprop="addressCountry">IN</span> 
+								<span >(Opp to Super Saravana Stores - Porur)</span>
+								<br />
+								<meta itemprop="telephone" content="09626262945">
+                    			<meta itemprop="email" content="knee.news@gmail.com">
+							</div>
+							<span itemprop="geo" itemtype="http://schema.org/GeoCoordinates">
+								<meta itemprop="latitude" content="13.083192">
+								<meta itemprop="longitude" content="80.201279">
+							</span>
+							<time itemprop="openingHours" datetime="Mo,We,Fr,Sa 18:00-21:00" class="d-none">Mo,We,Fr,Sa
+								18:00-21:00</time>
+							</div>
+							<!-- rating code -->
+							<span class="rating-desc" itemtype="http://schema.org/Product" itemscope>
+							<meta itemprop="mpn" content="925872" />
+							<meta itemprop="sku" content="09626262945" />
+							<meta itemprop="brand" content="Dr.Raj Kanna" />
+							<span itemprop="name">Dr. Raj Kanna</span>
+							<link itemprop="image" href="https://kneecareindia.in/images/favicon.ico">
+							<meta itemprop="description"
+								content="Dr. Raj Kanna is a consultant Orthopaedic and Knee surgeon, who have made a mark in the field of Orthopedics with his success stories." />
+							<span itemprop="aggregateRating" itemtype="http://schema.org/AggregateRating" itemscope> Rated
+								<span itemprop="ratingValue">4.9</span> / 5 based on <span itemprop="reviewCount">102</span>
+								reviews. |
+								<a class="ratings"
+								href="https://www.google.com/maps/place/Dr+Raj+Kanna+Knee+%26+Ortho+Clinic-+Knee+Replacement+Chennai/@13.0829778,80.1990802,17z/data=!3m1!4b1!4m5!3m4!1s0x3a52641c4baba5b9:0x8b93936fde633f9c!8m2!3d13.0829726!4d80.2012689">Review
+								Me</a>
+							</span>
+							</span>
+
+
+							<!-- <div itemtype="https://schema.org/MedicalBusiness" itemscope>
+								<link itemprop="image" href="https://kneecareindia.in/images/favicon.ico">
+								2021 &copy; All Rights Reserved. <span itemprop="name">Dr. Raj Kanna Knee Clinic</span>
+								<div itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">Business Address:
+									<span itemprop="streetAddress">179/1, 4th Avenue, Kurinji Colony, Anna Nagar</span>,
+									<span itemprop="addressLocality">Chennai</span>,<br />
+									<span itemprop="addressRegion">Tamil Nadu</span>,
+									<span itemprop="postalCode">600040</span>,
+									<span itemprop="addressCountry">IN</span> <br />
+									Tel: <a href="tel:09626262945" itemprop="telephone">096262 62945</a>
+									| Email: <a href="mailto:knee.news@gmail.com" itemprop="email">knee.news@gmail.com</a>.
+								</div>
+									<span itemprop="geo" itemscope="" itemtype="http://schema.org/GeoCoordinates">
+									<meta itemprop="latitude" content="13.083192">
+									<meta itemprop="longitude" content="80.201279">
+									</span>
+									Business hours: <time itemprop="openingHours" datetime="Mo,We,Fr,Sa 18:00-21:00">Mo,We,Fr,Sa 18:00-21:00</time>
+							</div> -->
+							<!-- rating code -->
+							<!-- <span class="rating-desc" itemtype="http://schema.org/Product" itemscope>
+								<span itemprop="name">Dr. Raj Kanna</span>
+								<span itemprop="aggregateRating" itemscope="" itemtype="http://schema.org/AggregateRating"> Rated 
+									<span itemprop="ratingValue">4.9</span> / 5 based on <span itemprop="reviewCount">102</span> reviews. | 
+										<a class="ratings" href="https://www.google.com/maps/place/Dr+Raj+Kanna+Knee+%26+Ortho+Clinic-+Knee+Replacement+Chennai/@13.0829778,80.1990802,17z/data=!3m1!4b1!4m5!3m4!1s0x3a52641c4baba5b9:0x8b93936fde633f9c!8m2!3d13.0829726!4d80.2012689">Review Me</a> 
+									</span>
+							</span> -->
+						</div>
+
+						
+
+						<!-- Social Links -->
+						<div class="col-md-6 footer-socials">
+							
+							<ul class="list-inline">
+								<li>
+									<a href="https://www.facebook.com/DrRajKanna/" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Facebook">
+										<i class="fab fa-facebook"></i>
+									</a>
+								</li>
+								<li>
+									<a href="https://plus.google.com/b/105073276127784167636/105073276127784167636" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Google Plus">
+										<i class="fab fa-google-plus"></i>
+									</a>
+								</li>
+								<li>
+									<a href="https://www.instagram.com/dr_raj_kanna/" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Instagram">
+										<i class="fab fa-instagram"></i>
+									</a>
+								</li>
+								<li>
+									<a href="https://www.youtube.com/channel/UCkFR_hVPG56DoPodOoAwtVA" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="YouTube">
+										<i class="fab fa-youtube"></i>
+									</a>
+								</li>
+								<li>
+									<a href="https://www.linkedin.com/company/dr-raj-kanna-knee-and-ortho-clinic" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Linkedin">
+										<i class="fab fa-linkedin"></i>
+									</a>
+								</li>							
+								<li>
+									<a href="https://twitter.com/DrRajKanna" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Twitter">
+										<i class="fab fa-twitter"></i>
+									</a>
+								</li>
+								<li>
+									<a href="https://kneecareindia.blogspot.com/" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Blog Spot">
+										<i class="fab fa-blogger"></i>
+									</a>
+								</li>
+								<li>
+									<a href="https://in.pinterest.com/dkneeandorthoclinic/" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Pinterest">
+										<i class="fab fa-pinterest"></i>
+									</a>
+								</li>
+                              								<li>
+									<a href="https://goo.gl/maps/E8YvmUyqSYkRefPx9" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Google Business">
+										<i class="fab fa-google"></i>
+									</a>
+								</li>
+							</ul>
+							<div>
+                            Copyright © 2025 Designed by <a href="http://briteinfomedia.com/">Brite Infomedia</a>
+                            </div>
+                            <div><a href="sitemap">sitemap</a></div>
+						</div>
+						<!-- End Social Links -->
+					</div>
+				</div>
+			</div>
+			<!--/copyright-->
+		</div>
+		<!--=== End Footer Version 1 ===-->
+	</div>
+	<!--/wrapper-->	
+	
+	<!-- JS Implementing Plugins -->
+	<script type="text/javascript" src="assets/plugins/back-to-top.js"></script>
+	<script type="text/javascript" src="assets/plugins/parallax-slider/js/modernizr.js"></script>
+	<script type="text/javascript" src="assets/plugins/parallax-slider/js/jquery.cslider.js"></script>
+	<script type="text/javascript" src="assets/plugins/owl-carousel/owl-carousel/owl.carousel.js"></script>
+	
+	<script src="assets/plugins/sky-forms-pro/skyforms/js/jquery.maskedinput.min.js"></script>
+	<script src="assets/plugins/sky-forms-pro/skyforms/js/jquery-ui.min.js"></script>
+	<script src="assets/plugins/sky-forms-pro/skyforms/js/jquery.validate.min.js"></script>
+	<!-- JS Customization -->
+	<script type="text/javascript" src="assets/js/custom.js"></script>	
+	<!-- JS Page Level -->
+	
+	<script type="text/javascript" src="assets/js/app.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/masking.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/validation.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/owl-carousel.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/style-switcher.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/parallax-slider.js"></script>
+	<!-- <script type="text/javascript" src="assets/js/forms/contact.js"></script> -->
+	<script type="text/javascript">
+		jQuery(document).ready(function () {
+			App.init();
+			OwlCarousel.initOwlCarousel();
+			StyleSwitcher.initStyleSwitcher();
+			ParallaxSlider.initParallaxSlider();
+			Masking.initMasking();
+			Validation.initValidation();
+
+			var country = $('#country');
+			var ccode = $('#basic-addon1');
+			country.change(function(){
+				var countr = $('option:selected', this).attr('alt');
+				if(countr !== '@'){
+					countr = '+'+countr;
+				}
+				ccode.text(countr);
+			})
+
+		});
+	</script>
+	<!--[if lt IE 9]>
+			<script src="assets/plugins/respond.js"></script>
+			<script src="assets/plugins/html5shiv.js"></script>
+			<script src="assets/plugins/placeholder-IE-fixes.js"></script>
+			<script src="assets/plugins/sky-forms-pro/skyforms/js/sky-forms-ie8.js"></script>
+		<![endif]-->
+	<!--[if lt IE 10]>
+	<script src="assets/plugins/sky-forms-pro/skyforms/js/jquery.placeholder.min.js"></script>
+	<![endif]-->
+</body>
+
+</html>
